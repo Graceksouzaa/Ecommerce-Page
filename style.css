@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+.logo{
+    width: 180px;
+    margin-right: 40px;
+}
+
+.conteiner-top{
+    margin: 50px 90px 50px 90px;
+    word-spacing: 20px;
+    border-bottom-style: inset;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.conteiner-top a{
+    color: rgb(214, 209, 209);
+    cursor: pointer;
+}
+
+.cart{
+    width: 20px;
+    margin-left: 85vh;
+    cursor: pointer;
+}
+
+.login-picture{
+    width: 50px;
+    cursor: pointer;
+}
+
+.big-container{
+    display: flex;
+} 
+
+.picture-one{
+    width: 420px;
+    margin: 30px 50px 10px 130px;
+    border-radius: 10px;
+   }
+
+.pictures-bottom img{
+    width: 80px;
+    border-radius: 10px;
+    margin: 0 10px 0 15px;
+}
+
+.sected-picture{
+    border: 3px solid rgb(228, 150, 6);
+    opacity: 0.5;
+}
+
+.pictures-bottom{
+    margin-left: 118px;
+}
+
+.text{
+    margin: 30px 50px 0 110px;
+    padding-right: 30px;
+}
+
+.text h1{
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: orange;
+}
+
+.text h2{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 12px;
+    letter-spacing: 1px;
+    padding-right: 100px;
+}
+
+.text p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+    color: rgb(196, 190, 190);
+    margin: 20px 100px 20px 0;
+    padding-right: 200px;
+}
+
+.price-sale{
+    display: flex;
+}
+
+.price-sale h3{
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.price-sale h4{
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(231, 153, 6);
+    background-color: rgba(245, 220, 175, 0.938);
+    width: 28px;
+    height: 16px;
+    text-align: center;
+}
+
+h5{
+    font-size: 13px;
+    color: rgb(201, 195, 195);
+    margin: 5px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 30px;
+}
+
+.button-select{
+    display: flex;
+    padding: 5px;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-select h6{
+    font-size: 16px;
+    padding: 0 7px 0 7px;
+    width: 50px;
+}
+
+.button-buy{
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: rgb(223, 145, 0);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-buy img{
+    padding-right: 5px;
+    width: 16px;
+}
+
+.button-buy:hover{
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: rgb(252, 216, 148);
+    color: orange;
+    border-radius: 6px;
+    cursor: pointer;
+}
